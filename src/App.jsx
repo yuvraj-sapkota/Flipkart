@@ -24,29 +24,30 @@ function App() {
       headItemsName: "Appiances",
     },
 
-
     {
       headItemsPhoto:
         "https://rukminim2.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100",
 
       headItemsName: "Grocery",
-    }, {
-      headItemsPhoto:
-        "https://rukminim2.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100",
-
-      headItemsName: "Grocery",
-    }, {
-      headItemsPhoto:
-        "https://rukminim2.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100",
-
-      headItemsName: "Grocery",
-    }, {
+    },
+    {
       headItemsPhoto:
         "https://rukminim2.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100",
 
       headItemsName: "Grocery",
     },
-    
+    {
+      headItemsPhoto:
+        "https://rukminim2.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100",
+
+      headItemsName: "Grocery",
+    },
+    {
+      headItemsPhoto:
+        "https://rukminim2.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100",
+
+      headItemsName: "Grocery",
+    },
   ];
 
   const bestDealsPhData = [
@@ -80,6 +81,16 @@ function App() {
       bestDealsPhPhoto:
         "https://rukminim2.flixcart.com/image/400/400/xif0q/mobile/n/m/f/g34-5g-pb1v0002in-motorola-original-imagwu4rayqhgfjh.jpeg?q=70",
       bestDealsPhName: "moto g34",
+    },
+    {
+      bestDealsPhPhoto:
+        "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/b/m/g/-original-imagxaqtqng2hpxn.jpeg?q=70",
+      bestDealsPhName: "redmi 12 5G",
+    },
+    {
+      bestDealsPhPhoto:
+        "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/b/m/g/-original-imagxaqtqng2hpxn.jpeg?q=70",
+      bestDealsPhName: "redmi 12 5G",
     },
   ];
 
