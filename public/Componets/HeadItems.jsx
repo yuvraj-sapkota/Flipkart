@@ -1,7 +1,7 @@
 import React from "react";
 
 const HeadItems = () => {
-  return <div>Shishir Changes yuvraj</div>;
+  return <div>Shishir</div>;
 };
 
 export default HeadItems;
