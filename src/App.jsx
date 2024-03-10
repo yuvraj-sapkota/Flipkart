@@ -23,6 +23,30 @@ function App() {
 
       headItemsName: "Appiances",
     },
+
+
+    {
+      headItemsPhoto:
+        "https://rukminim2.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100",
+
+      headItemsName: "Grocery",
+    }, {
+      headItemsPhoto:
+        "https://rukminim2.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100",
+
+      headItemsName: "Grocery",
+    }, {
+      headItemsPhoto:
+        "https://rukminim2.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100",
+
+      headItemsName: "Grocery",
+    }, {
+      headItemsPhoto:
+        "https://rukminim2.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100",
+
+      headItemsName: "Grocery",
+    },
+    
   ];
 
   const bestDealsPhData = [
