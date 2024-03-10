@@ -1,9 +1,12 @@
 import React from "react";
-
-const HeadItems = () => {
+import styles from "./HeadItems.module.css";
+const HeadItems = (props) => {
   return (
     <div>
-      <div className="headitems"></div>
+      <div>
+        <img src={props.headItemsPhoto} />
+        <p id={styles.headItemsName}> {props.headItemsName}</p>
+      </div>
     </div>
   );
 };

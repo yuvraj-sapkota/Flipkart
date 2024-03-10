@@ -1,11 +1,5 @@
-import HeadTitle from "../public/Componets/HeadTitle";
-
 function App() {
-  return (
-    <>
-      <HeadTitle />
-    </>
-  );
+  return <></>;
 }
 
 export default App;
