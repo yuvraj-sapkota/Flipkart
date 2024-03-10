@@ -1,0 +1,112 @@
+.HeadTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1535px;
+  height: 70px;
+}
+
+.HeadTitle-left {
+  display: flex;
+  align-items: center;
+  width: 945px;
+  height: 45px;
+}
+.image {
+}
+
+.image img {
+  width: 160px;
+  height: 40px;
+}
+.searchbar {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  margin-left: 20px;
+}
+
+.search-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  /* width: 44px; */
+  height: 42px;
+  background-color: rgba(141, 177, 246, 0.212);
+  color: gray;
+  border: none;
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+.search-input {
+}
+
+.search-input input {
+  width: 708px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: rgba(141, 177, 246, 0.212);
+  font-size: 18px;
+}
+
+.HeadTitle-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 530px;
+  height: 40px;
+}
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 111px;
+  height: 40px;
+}
+
+.login-text {
+  width: 41px;
+  height: 24px;
+  font-size: 17px;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 111px;
+  height: 40px;
+}
+.cart-text {
+  width: 34px;
+  height: 24px;
+  font-size: 20px;
+}
+
+.seller {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 111px;
+  height: 40px;
+}
+
+.seller-text {
+  width: 121px;
+  height: 24px;
+}
+.hr-logo {
+  height: 24px;
+  width: 24px;
+}
+
+.down-logo {
+  height: 12px;
+  width: 12px;
+}
