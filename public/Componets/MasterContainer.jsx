@@ -122,6 +122,21 @@ const MasterContainer = () => {
         "https://rukminim2.flixcart.com/fk-p-flap/320/170/image/ec6cf773ae886bd7.jpg?q=20",
     },
   ];
+
+  const sqCardsData2 = [
+    {
+      sqCardPhoto:
+        "https://rukminim2.flixcart.com/fk-p-flap/320/170/image/8f93c8d6e486e2a3.jpg?q=20",
+    },
+    {
+      sqCardPhoto:
+        "https://rukminim2.flixcart.com/fk-p-flap/320/170/image/b5cf664dece6236c.jpg?q=20",
+    },
+    {
+      sqCardPhoto:
+        "https://rukminim2.flixcart.com/fk-p-flap/320/170/image/5a396d1080e7beb6.jpg?q=20",
+    },
+  ];
   return (
     <>
       <HeadTitle />
@@ -157,6 +172,24 @@ const MasterContainer = () => {
       <div className={styles.sqCardsContainer}>
         <div className={styles.sqCards}>
           {sqCardsData.map((scd) => {
+            return <SqCards sqCardPhoto={scd.sqCardPhoto} />;
+          })}
+        </div>
+      </div>
+
+      {/* //this is for featured brands */}
+      <div className={styles.sqCardsContainer}>
+        <div className={styles.sqCards}>
+          {sqCardsData2.map((scd) => {
+            return <SqCards sqCardPhoto={scd.sqCardPhoto} />;
+          })}
+        </div>
+      </div>
+
+      {/* //this is for some gadgates portion */}
+      <div className={styles.sqCardsContainer}>
+        <div className={styles.sqCards}>
+          {sqCardsData2.map((scd) => {
             return <SqCards sqCardPhoto={scd.sqCardPhoto} />;
           })}
         </div>
