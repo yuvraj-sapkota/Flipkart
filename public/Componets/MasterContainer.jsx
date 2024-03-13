@@ -3,7 +3,7 @@ import HeadItems from "./HeadItems";
 import BestDealsPh from "./BestDealsPh";
 import styles from "./MasterContainer.module.css";
 import SqCards from "./SqCards";
-
+import BigCard from "./BigCard";
 const MasterContainer = () => {
   const headItemsData = [
     {
@@ -150,6 +150,13 @@ const MasterContainer = () => {
         "https://rukminim2.flixcart.com/fk-p-flap/520/280/image/c71cffc8efff3aa1.jpg?q=20",
     },
   ];
+
+  const bigCardData1 = [
+    {
+      bigCardPhoto:
+        "https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2022/08/Image_-_E-Commerce_Website_.jpeg.jpg",
+    },
+  ];
   return (
     <>
       <HeadTitle />
@@ -197,6 +204,12 @@ const MasterContainer = () => {
             return <SqCards sqCardPhoto={scd.sqCardPhoto} />;
           })}
         </div>
+      </div>
+
+      <div className={styles.bigCardImage}>
+        {bigCardData1.map((bcd) => {
+          return <BigCard bigCardPhoto={bcd.bigCardPhoto} />;
+        })}
       </div>
 
       {/* //this is for some gadgates portion */}

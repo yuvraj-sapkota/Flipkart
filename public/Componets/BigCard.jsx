@@ -1,13 +1,11 @@
-import React from 'react'
-
-const BigCard = () => {
+import React from "react";
+import styles from "./BigCard.module.css";
+const BigCard = (props) => {
   return (
-    <div>
-      
-
-      
+    <div className={styles.bigCardPhoto}>
+      <img src={props.bigCardPhoto} />
     </div>
-  )
-}
+  );
+};
 
-export default BigCard
+export default BigCard;
